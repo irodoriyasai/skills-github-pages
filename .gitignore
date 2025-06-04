@@ -1,4 +1,162 @@
-# Compiled source #
+#<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>彩野菜の乾燥野菜 - 製品紹介</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.2/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.2/dist/theme/black.css" id="theme">
+  <style>
+    .background-blur {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background-size: cover;
+      background-position: center;
+      filter: blur(8px);
+      z-index: -1;
+    }
+    .slide-content {
+      position: relative;
+      z-index: 1;
+      background: rgba(0,0,0,0.4);
+      padding: 20px;
+      border-radius: 10px;
+      color: #fff;
+    }
+    h1, h2, h3, p {
+      text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+    }
+    .qr-code {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Slide 1: タイトル -->
+      <section data-transition="fade">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?vegetable,farm');"></div>
+        <div class="slide-content">
+          <h1>彩野菜の乾燥野菜</h1>
+          <h3>～ 中山間地の手しごとから生まれた一品 ～</h3>
+        </div>
+      </section>
+
+      <!-- Slide 2: コンセプト -->
+      <section data-transition="convex">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?japan,nature');"></div>
+        <div class="slide-content">
+          <h2>彩野菜のこだわり</h2>
+          <ul>
+            <li>農薬・化学肥料不使用</li>
+            <li>赤土の中山間地で育てた野菜</li>
+            <li>街全体が山水で生活する清流地域</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 3: 生産者ストーリー -->
+      <section data-transition="slide">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?woman,farming');"></div>
+        <div class="slide-content">
+          <h2>単身女性の挑戦</h2>
+          <p>脱サラして地方移住。農業未経験から一歩ずつ挑戦。</p>
+          <p>地域の資源と想いを活かした、等身大のものづくり。</p>
+        </div>
+      </section>
+
+      <!-- Slide 4: 栽培環境 -->
+      <section data-transition="fade">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?mountain,village');"></div>
+        <div class="slide-content">
+          <h2>育った場所</h2>
+          <p>山あいの赤土でミネラル豊富。朝霧の中で育まれた彩り野菜。</p>
+        </div>
+      </section>
+
+      <!-- Slide 5: 製品紹介 -->
+      <section data-transition="convex">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?dried,vegetables');"></div>
+        <div class="slide-content">
+          <h2>乾燥野菜シリーズ</h2>
+          <ul>
+            <li>彩りピーマン・ミニ大根・葉野菜</li>
+            <li>スープやお味噌汁にポンっと使える</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 6: 価格 -->
+      <section data-transition="slide">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?kitchen,cooking');"></div>
+        <div class="slide-content">
+          <h2>価格とお求めやすさ</h2>
+          <p>1袋：500円〜1000円</p>
+          <p>ちょっと贅沢な日常に、ちょうどいい。</p>
+        </div>
+      </section>
+
+      <!-- Slide 7: 他製品との違い -->
+      <section data-transition="fade">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?handmade');"></div>
+        <div class="slide-content">
+          <h2>競合との差別化</h2>
+          <ul>
+            <li>工場大量生産ではなく、手仕事のあたたかさ</li>
+            <li>栽培から加工まで一貫</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Slide 8: 利用シーン提案 -->
+      <section data-transition="convex">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?family,meal');"></div>
+        <div class="slide-content">
+          <h2>使い方いろいろ</h2>
+          <p>スープ・味噌汁・パスタなど。</p>
+          <p>保存食にも、ギフトにもぴったり。</p>
+        </div>
+      </section>
+
+      <!-- Slide 9: メッセージ -->
+      <section data-transition="slide">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?woman,smile');"></div>
+        <div class="slide-content">
+          <h2>あなたの毎日に、小さな彩りを。</h2>
+          <p>安心・安全・やさしさをお届けします。</p>
+        </div>
+      </section>
+
+      <!-- Slide 10: ECサイト誘導 + QRコード -->
+      <section data-transition="fade">
+        <div class="background-blur" style="background-image: url('https://source.unsplash.com/1600x900/?shopping,online');"></div>
+        <div class="slide-content">
+          <h2>ご購入はこちらから</h2>
+          <p>▼ ECサイトにて販売中 ▼</p>
+          <p><a href="https://example.com" style="color: #ffd700;">https://example.com</a></p>
+          <div class="qr-code">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com" alt="QRコード">
+            <p style="font-size: 0.8em;">スマホでQRコードをスキャンしてください</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.2/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      transition: 'fade',
+      backgroundTransition: 'zoom'
+    });
+  </script>
+</body>
+</html>
+ Compiled source #
 ###################
 *.com
 *.class
